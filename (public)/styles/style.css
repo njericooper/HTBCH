@@ -2,19 +2,31 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   background-color: white;
-  color: white;
 }
+
+.logo {
+  size: 300%;
+ }
+
 .question{
   font-family: 'Recursive', sans-serif;
 color: #15d;
 }
 
-.logo {
- size: 300%;
+.form-container{
+  padding: 3em;
+}
+
+p{
+  padding: 4em;
+}
+
+.form-body {
+  text-align: left;
 }
 
 .next {
-  background-color: #4CAF50;
+  background-color:#6dbe45;
   color: white;
 }
 
@@ -25,6 +37,6 @@ color: #15d;
 }
 
 .button:hover {
-  background-color: #ddd;
+  background-color:#3e7160;
   color: black;
 }
