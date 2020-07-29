@@ -1,0 +1,27 @@
+.range-wrap {
+  width: 50%;
+  position: relative;
+}
+
+.range {
+  width: 25%;
+}
+
+.bubble {
+  background: green;
+  color: white;
+  padding: 4px 12px;
+  position: absolute;
+  border-radius: 4px;
+  transform: translateY(20%);
+}
+
+.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: black;
+  top: -1px;
+  left: 50%;
+}
