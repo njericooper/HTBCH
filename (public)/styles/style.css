@@ -20,18 +20,32 @@ body{
  }
 
 .question{
-  font-family: 'Recursive', sans-serif;
+  font-weight: bold;
   color: #15d;
 }
 
 .form-container{
   background-color: white;
   padding: .5em;
-  width: 50%;
+  height: 50%;
+  width: 40%;
+  border-radius: 1em;
+  align-content: space-between;
 }
 
 .form-body {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.dropdown-container{
+ display: flex;
+ flex-direction: column;
+ padding: 1rem 1rem 1rem 0;
+ width: 50%;
 }
 
 .next {
