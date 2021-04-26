@@ -36,7 +36,6 @@ body{
 
  button{
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
    padding: 1rem;
    width: 10rem;
    align-self: center;
@@ -115,9 +114,7 @@ body{
 }
 
 @media (min-width: 1281px) {
-  
   .wordz{
     text-align: center;
   }
-  
 }
